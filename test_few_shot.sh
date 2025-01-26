@@ -64,7 +64,7 @@ echo "usewinmem: ${usewinmem}"
 
 ### test on the VisA dataset
 python test.py --mode few_shot --dataset visa \
---data_path /data/wangzhehong/database/VISA --save_path ./results/visa/few_shot/${model_name}_winmode${winmode}/s${kshot}shot/seed${seed} \
+--data_path /data/name/database/VISA --save_path ./results/visa/few_shot/${model_name}_winmode${winmode}/s${kshot}shot/seed${seed} \
 --rrcount_path ./results/visa/few_shot/${model_name}/s${kshot}shot/seed${seed}/rrcount.txt \
 --coscount_path ./results/visa/few_shot/${model_name}/s${kshot}shot/seed${seed}/coscount.txt \
 --config_path ./open_clip/model_configs/ViT-L-14-336.json \
@@ -78,7 +78,7 @@ python test.py --mode few_shot --dataset visa \
 
 ### test on the MVTec AD dataset
 python test.py --mode few_shot --dataset mvtec \
---data_path /data/wangzhehong/database/MVTEC --save_path ./results/mvtec/few_shot/${model_name}_winmode${winmode}/s${kshot}shot/seed${seed} \
+--data_path /data/name/database/MVTEC --save_path ./results/mvtec/few_shot/${model_name}_winmode${winmode}/s${kshot}shot/seed${seed} \
 --rrcount_path ./results/mvtec/few_shot/${model_name}/s${kshot}shot/seed${seed}/rrcount.txt \
 --coscount_path ./results/mvtec/few_shot/${model_name}/s${kshot}shot/seed${seed}/coscount.txt \
 --config_path ./open_clip/model_configs/ViT-L-14-336.json \

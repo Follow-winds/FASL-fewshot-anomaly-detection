@@ -769,7 +769,7 @@ def test(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser("VAND Challenge", add_help=True)
     # paths
-    parser.add_argument("--data_path", type=str, default="/data/wangzhehong/database/VISA", help="path to test dataset")
+    parser.add_argument("--data_path", type=str, default="/data/name/database/VISA", help="path to test dataset")
     parser.add_argument("--save_path", type=str, default='./results/tiaoshi', help='path to save results')
     parser.add_argument("--rrcount_path", type=str, default='./results/tiaoshi', help='path to save results')
     parser.add_argument("--coscount_path", type=str, default='./results/tiaoshi', help='path to save results')
