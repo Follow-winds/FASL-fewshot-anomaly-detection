@@ -1,6 +1,6 @@
 # FASL(Feature discrepancy guided Anomaly Score Learning for few-Shot anomaly detection)
 
-> [IJCAI 2025]
+> [2025]
 >
 > Primary Subject Area: CV:Transfer, low-shot, semi- and un- supervised learning  
 
