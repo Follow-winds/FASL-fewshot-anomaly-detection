@@ -37,7 +37,7 @@ def calWinAnoMap(winmap, masklist, winsize, picsize, device, usewinimgencoder, c
         winsize: int 5
         winzsize: int 7
         picsize: int 37
-        usewinimgencoder 是否使用了滑动窗口图像编码器
+        usewinimgencoder: Whether a sliding window image encoder is used
     '''    
         
     winnum = len(masklist)

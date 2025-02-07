@@ -1,6 +1,6 @@
 import torch
 from dataset import VisaDataset, MVTecDataset
-from selfModel import winSplit
+from FASLModel import winSplit
 from torch.nn import functional as F
 
 
